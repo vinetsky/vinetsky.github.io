@@ -1,0 +1,38 @@
+/* Mixins */
+$scalar-container-width: 1440;
+
+$container-width: 1440px;
+$container-width-sm: 719px;
+$full-size: 5000px;
+
+// Mixins
+
+$vw-factor: 14.2;
+$vw-factor-sm: 7.7;
+
+
+
+/* Container*/
+
+.acc-container {
+  /* Vars */
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-gray: #F4F4F4;
+  --color-border: #EAEAEA;
+  --color-footer-gray: #f5f5f5;
+  --color-text: var(--color-black);
+  --color-text-gray: #939393;
+  --color-primary: #2189FF;
+  --color-phone: #BE262D;
+  --color-link: #0022A2;
+  --font-family-primary: "SamsungSharpSans", arial, sans-serif;
+  --font-family-secondary: "SamsungOne", arial, sans-serif;
+  --font-weight-bold: 700;
+  --color-button-bg: var(--color-white);
+  --color-button-text: var(--color-black);
+  --color-button-bg-hov: #555555;
+  --color-button-text-hov: #eeeeee;
+  --swiper-image-size: 68px;
+  --benefit-image-size: 80px;
+}

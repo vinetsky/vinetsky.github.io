@@ -1,0 +1,14 @@
+{
+  "extends": "stylelint-config-recommended",
+  "rules": {
+    "indentation": 4,
+    "number-leading-zero": null,
+    "unit-allowed-list": ["px","%", "s", "deg", "em", "ms", "rem", "pt", "fr"],
+    "no-descending-specificity": null,
+    "color-hex-length": "long",
+    "selector-max-id": 0,
+    "selector-class-pattern": "^(?!js-)[-a-zA-Z0-9_]+$",
+    "custom-property-pattern": ""
+  },
+  "defaultSeverity": "warning"
+}

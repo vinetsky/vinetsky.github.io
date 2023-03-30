@@ -1,0 +1,11 @@
+/dist/
+/AEM/
+/node_modules/
+/web/
+/package-lock.json
+*.docx
+*.zip
+/SNIPPETS/*
+/PAGES/*
+!/PAGES/samsung-care-plus/
+/PAGES/samsung-care-plus/img_old/
