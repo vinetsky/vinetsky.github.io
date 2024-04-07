@@ -15,7 +15,7 @@ const sourcemaps = require('gulp-sourcemaps');
 const terser = require('gulp-terser');
 
 
-const defaultSrcDir = 'PAGES/samsung-care-plus';
+const defaultSrcDir = 'PAGES/maptest';
 
 const presets = {
     locale: 'ru',
@@ -74,9 +74,7 @@ function convertImages() {
 function footer() {
     const collectedJS = gulp.src([
         `./${defaultSrcDir}/js/meta.js`,
-        `./${defaultSrcDir}/js/omni.js`,
-        `./${defaultSrcDir}/js/app.js`,
-        `./${defaultSrcDir}/js/footer.js`,
+         `./${defaultSrcDir}/js/app.js`
     ]);
     const webTask = new Promise((resolve, reject) => {
         collectedJS

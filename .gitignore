@@ -7,5 +7,4 @@
 *.zip
 /SNIPPETS/*
 /PAGES/*
-!/PAGES/samsung-care-plus/
-/PAGES/samsung-care-plus/img_old/
+!/PAGES/maptest/
