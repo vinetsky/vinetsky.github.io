@@ -203,4 +203,3 @@ const Meta = {
     temperatures: JSON.parse(inputTemperatures),
 };
 
-console.log(Meta);

@@ -1,10 +1,10 @@
 /dist/
 /AEM/
 /node_modules/
-/web/
 /package-lock.json
 *.docx
 *.zip
 /SNIPPETS/*
 /PAGES/*
 !/PAGES/maptest/
+!/node_modules/leaflet/*

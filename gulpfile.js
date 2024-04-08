@@ -170,7 +170,7 @@ function updateIndexFile() {
         )
         .pipe(
             wrapper({
-                footer: '<script type="text/javascript" src="/footer.js"></script>'
+                footer: '<script type="text/javascript" src="footer.js"></script>'
             })
         )
         .pipe(dest(paths.webDir))
